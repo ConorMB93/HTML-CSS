@@ -1,0 +1,171 @@
+h1{
+	color: white;
+	font-family: tangerine, serif;
+	/*margin-bottom: 20px*/
+  position: relative;
+  right: 365px;
+  border: 3px
+}
+
+body{
+  background-color: #D7C6C6;
+  width: 100%;
+
+}
+
+.wrapper{ 
+  background-color: #75142B;
+  width: 90%;
+  min-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header { 
+  background-color: #692121;
+  color:white;
+  text-align:center;
+  height: 50%;
+  padding:5px;
+
+}
+
+section{
+  background-color: #834242;
+  width: 30%;
+  position: relative; left: 120px;
+  padding: 2px
+
+}
+
+
+}
+footer {
+  background-color: #4E0012;
+  color:white;
+  clear:both;
+  padding:5px; 
+} /* body */
+
+nav a:link {
+  color: white;
+}
+
+nav a:hover {
+  color: #AC4161;
+}  
+
+nav a:visited {
+  color: none;
+}
+
+nav a:active {
+  color: none;
+} /* Links */
+
+#MENU {
+  display: inline-block;
+  width: 30%;
+  margin-right: 20px
+}
+
+#OFFERS {
+  display: inline-block;
+  position: relative; left: 20px;
+  width: 30%;
+  margin-left: 20px;
+}
+
+#IMAGE{
+  position: relative; 
+  width: 100%;
+
+
+}
+
+#H4 span {
+   text-align: left; 
+   font-family: Arial;
+   color: white;
+   letter-spacing: -1px;  
+   padding: 10px; 
+}
+#H4 span.spacer{
+  padding:0 5px;
+}
+.css-slideshow{
+  position: relative;
+  text-align: center;
+  max-width: 495px;
+  height: 370px;
+  margin: 5em auto .5em auto;
+}
+.css-slideshow figure{
+  margin: 0;
+  max-width: 495px;
+  height: 370px;
+  background: #000;
+  position: absolute;
+  right:  200px;
+  bottom: 50px;
+}
+.css-slideshow img{
+  box-shadow: 0 0 2px #666;
+}
+.css-slideshow figcaption{
+  top: 0;
+  color: #fff;
+  background: rgba(0,0,0, .3);
+  font-size: .8em;
+  padding: 8px 12px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.css-slideshow:hover figure figcaption{
+  transition: opacity .5s;
+  opacity: 1;
+}
+.css-slideshow-attr{
+  max-width: 495px;
+  font-size: .7em;
+  font-style: italic;
+  margin:0 auto;
+}
+.css-slideshow-attr a{
+  color: #666;
+}
+.css-slideshow figure{
+  opacity:0;
+}
+figure:nth-child(1) {
+  animation: xfade 48s 36s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 48s 24s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 48s 12s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 48s 0s infinite;
+}
+
+
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  10.5% {
+    opacity: 1;
+  }
+  12.5%{
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
