@@ -1,0 +1,131 @@
+/* Website assingment project by Conor Byrne */
+
+body{
+	position: fixed;
+	background: url("record11.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-size: 87.5%; /*Base font size is 14px */
+	font-family: Bodoni MT, 'Lucida Sans Unicode';
+	line-height: 1.4;
+	text-align: left;
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link{
+	color: #CF5C3F;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover{
+	
+	color: #CF5C3F;
+
+}
+
+a:active{
+	
+	color: white;
+} /*links */ /* links */
+
+.wrapper{
+
+	width: 100%;
+	height: auto;
+	margin: 2% 0;
+}
+.wrapper img{
+	height: auto;
+	margin: 2% 0;
+}
+.wrapper nav{
+	position: relative;
+	left: 80px;
+	height: 40px;
+	border-radius: 5px;
+
+}
+
+.wrapper nav .leftList{
+	position: relative;
+	left: 120px;
+	list-style: none;
+	margin: 0 auto; /* control all margins */
+	
+}
+
+.wrapper nav .rightList{
+	position: relative;
+	left: 300px;
+	list-style: none;
+	margin: 0 auto; /* control all margins */
+}
+
+.wrapper nav .centreList{
+	position: relative;
+	left: 200px;
+	list-style: none;
+	margin: 0 auto; /* control all margins */
+}
+.wrapper nav ul li {
+
+	float:left;
+	display: inline;
+	
+}
+
+.wrapper nav a:link, .wrapper nav a:visited{
+	
+	display: inline-block;
+	padding: 10px 25px;	
+	height: 20px;
+}
+
+.wrapper nav a:hover, .wrapper nav a:active,
+.wrapper nav .active a:link, .wrapper nav .active a:visited{
+	text-shadow: none;
+	border-radius: 5px;
+} 
+
+.wrapper ul li a{
+	border-radius: 5px;
+}
+ /* wrapper */
+
+
+.mainFooter{
+	position: relative;
+	
+	top: 500px;
+	width: 100%;
+	float:left;
+	border-radius: 5px;
+
+}
+
+.mainFooter p{
+	height: auto;
+	width: 92%;
+	height: 40px;
+	margin: 2% auto;
+	margin-bottom: 2%;
+	color: white;
+	border-radius: 5px;
+}
+
+.postInfo{
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+} /* Footer */
