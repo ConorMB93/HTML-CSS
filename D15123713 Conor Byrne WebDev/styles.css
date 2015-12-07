@@ -1,0 +1,84 @@
+/* Conor Byrne CSS */
+/* nav bar */
+
+.navbar{
+background-color: #333333;
+transition: height .3s linear 0s, padding 0.3s linear 0s;
+
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #ff9833;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+.row-padding{
+	padding-top: 80px;
+
+
+}
+
+/* Content */
+
+section{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #333333;
+
+}
+
+h1{
+	color: #4d4d4d;
+	font-size: 220%;
+}
+
+h2 {
+	color: #809fff;
+	
+	font-size: 150%;
+	
+}
+
+h4{
+	display: none;
+}
+
+h3 {
+
+	color: #ff9833;
+}
+
+footer{
+
+	background-color: #333333;
+}
+
+.container .text-muted {
+    margin: 50px 0;
+
+}
+
+@media only screen and (max-width: 991px) {
+    h3 , p { 
+    	padding-left: 10px;
+        
+    }
+
+    #imgClickAndChange {
+    	max-width: 250px;
+    	max-height: 250px;
+    }
+}
+
+
+

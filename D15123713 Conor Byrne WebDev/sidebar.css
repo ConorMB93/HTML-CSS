@@ -1,0 +1,61 @@
+/* Conor Byrne CSS */
+/* SideBar */
+
+#sidebar-wrapper{
+	z-index: 1;
+	width: 200px;
+	height: 100%;
+	position: fixed;
+	top: 120px;
+	right:-100px;
+	left: -200px;
+	overflow-y: hidden;
+	background: #000;
+	border: 2px solid black;
+	opacity: 0.8;
+	transition:left 0.3s linear;
+
+}
+
+#sidebar-wrapper.visible{
+	left: 0px;
+	transition:left 0.3s linear;
+}
+
+.sidebar-nav{
+	padding:0;
+	list-style: none;
+	
+
+}
+.sidebar-nav li {
+	text-indent: 20px;
+	line-height: 40px;
+}
+
+.sidebar-nav li a{
+	display: block;
+	text-decoration: none;
+	color: #a6a6a6
+
+}
+
+.sidebar-nav li a:hover{
+	color: #ff9833;
+	background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+#menu-icon{
+	font-size: 10;
+	padding: 10px 20px;
+	background-color: #333;
+	cursor: pointer;
+}
+
+#menuToggle{
+	display: none;	
+}
